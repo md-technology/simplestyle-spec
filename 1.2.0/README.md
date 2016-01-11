@@ -119,15 +119,15 @@ are encouraged to set `fill` to 0 by default in that case.
             // zero and less or equal to than one
             "fill-opacity": 0.5,
             
-            // OPTIONAL: default "marker"
+            // OPTIONAL: default "point"
             // values: "marker" | "point" | "photo"
             // identifying the point display mode on the map
-            "type": "marker",
+            "point-type": "point",
             
             // OPTIONAL: default "geo"
             // values: "event" | "poi" | "geo" | "wiki"
             // identifying the use of the point in actual business
-            "business-type": "event",
+            "business-type": "geo",
             
             // OPTIONAL: default "WGS84"
             // values: "WGS84" | "GCJ02" | "BD09"
