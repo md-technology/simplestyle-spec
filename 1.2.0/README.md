@@ -127,7 +127,12 @@ are encouraged to set `fill` to 0 by default in that case.
             // OPTIONAL: default "geo"
             // values: "event" | "poi" | "geo" | "wiki"
             // identifying the use of the point in actual business
-            "business-type": "event"
+            "business-type": "event",
+            
+            // OPTIONAL: default "WGS84"
+            // values: "WGS84" | "GCJ02" | "BD09"
+            // identifying the coordinate system of the gps info
+            "coordinate-system": "WGS84"
             
         }
     }]
